@@ -1,0 +1,289 @@
+
+.background
+{
+  background-color:#EDF2C5;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.content
+{
+  width: 1264px ;
+  height: 880px ;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.maintitle_left /*左側主標題*/
+{
+  float:left;
+  font-size: 36px;
+  font-family: "Arial Black";
+  color:#778A50;
+  margin-left: 160px;
+  margin-top: 53px;
+  margin-bottom: 8px;
+  margin-right: 0px;
+  width: 271px;
+  height: 42px;
+}
+
+.maintitle_right /*右側主標題*/
+{
+  float:right;
+  color:#778A50;
+  margin-right: 160px;
+  margin-top: 70px;
+  margin-bottom: 17px;
+  margin-left: 0px;
+}
+
+.maintitle_right_img
+{
+ float:left;
+  margin-right: 10px;
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.maintitle_right_img img
+{
+  width: 25px;
+  height: 25px;
+}
+
+.maintitle_right_line
+{
+  float: left;
+  margin-right: 10px;
+  margin-left: 0px;
+  margin-top: -5px;
+  margin-bottom: 0px;
+  font-size: 28px;
+  font-weight: 1pX;
+}
+
+.maintitle_right_login
+{
+  font-family: "Arial BoldMT",Sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  float: left;
+  margin-right: 10px;
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  border-color: #778A50;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 3px; /*圓角程度*/
+  padding: 7px; /*留白*/
+  height:9px;
+  width:46px;
+  line-height: 9px;
+}
+
+.maintitle_right_join
+{
+  font-family: "Arial BoldMT",Sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  float: left;
+  margin-right: 0px;
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  border-style: solid;
+  border-color: #778A50;
+  border-width: 1px;
+  line-height: 9px;
+  border-radius: 3px;
+  padding: 7px;
+  height:9px;
+  width:36px;
+}
+
+.list /*功能清單*/
+{
+  float: left;
+  background-color: #778A50;
+  color: #EDF2C5;
+  margin-left: 160px;
+  margin-right: 160px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  padding:0px;
+  width: 940px;
+  height: 44px;
+  border-radius: 3px;
+}
+
+.list ul
+{
+  margin-left: 30px;
+  padding-left: 0px;
+  margin-top:0px;
+  margin-bottom:0px;
+  width: 940px;
+  height: 44px;
+}
+
+.list li
+{
+  display: inline-block;
+  list-style-type:none;
+  font-family: "Arial Black";
+  font-size: 16px;
+  color:#EDF2C5;
+  margin-top:16px;
+  margin-bottom: 16px;
+  margin-right: 60px;
+  line-height: 12px;
+
+}
+
+.main_img
+{
+  float: left;
+
+  background-image: url("../img/img_main_pumpkin.png");
+  width:940px;
+  height:448px;
+  margin-left: 160px;
+  margin-right: 160px;
+  margin-top: 0px;
+  margin-bottom: 30px;
+}
+
+.vegetables,.contact
+{
+  background-color: #778A50;
+  color: #EDF2C5;
+  font-family: "Arial Black";
+  font-size: 16px;
+  margin-top: 0px;
+  margin-bottom: 15px;
+  width: 445px;
+  height: 45px;
+}
+
+.vegetables  ul
+{
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 30px;
+  margin:0px;
+  line-height: 15px;
+}
+
+.vegetables
+{
+  margin-left: 160px;
+  float:left;
+}
+
+.vegetables_img
+{
+  float:left;
+  height: 140px;
+  margin-left: 160px;
+  margin-bottom: 35px;
+}
+
+.vegetables_img ul
+{
+  margin:0px;
+  padding: 0px;
+}
+
+.vegetables_img li
+{
+  display: inline-block;
+  margin-right: 8px;
+  width:140px;
+}
+
+.contact  ul
+{
+  padding-top: 17px;
+  padding-bottom: 16px;
+  padding-left: 30px;
+  margin:0px;
+  line-height: 15px;
+}
+
+.contact
+{
+  margin-right: 160px;
+  float:right;
+}
+
+.contact_content
+{
+  margin-right: 160px;
+  float:right;
+  background-color: #F7FBDA;
+  color:#7D7D7D;
+  height: 140px;
+  width: 445px;
+  margin-bottom: 35px;
+}
+
+.contact_content h1
+{
+
+  font-family: "ArialMT Regular",Sans-serif;
+  font-size: 12px;
+  line-height: 1.33em;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  margin-left: 15px;
+  margin-right: 15px;
+  font-weight: lighter;
+}
+
+.contact_content h2
+{
+  font-family: "ArialMT Regular",Sans-serif;
+  font-size: 12px;
+  line-height: 1.83em;
+  margin-top: 16px;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 16px;
+  font-weight: lighter;
+}
+
+footer
+{
+  float:right;
+  background-color:  #778A50;
+  height:60px;
+  width:100%;
+}
+
+footer p
+{
+  text-align:center;
+  color: #EDF2C5;
+  /*float: left;*/
+  /*margin-left: 479px;*/
+  margin-top: 24px;
+  margin-bottom: 25px;
+  /*margin-right: 479px;*/
+  font-family: "ArialMT Regular",Sans-serif;
+  font-size: 12px;
+}
+
+.HR
+{
+  border-width: 1px;
+  margin-top:0px;
+  margin-bottom: 0px;
+  margin-left: 16px;
+  margin-right: 16px;
+  width: 414px;
+  height:1px;
+  color: #7D7D7D;
+}
